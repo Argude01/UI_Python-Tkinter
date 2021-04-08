@@ -12,7 +12,9 @@ title.grid(row=2, column=0)
 title = Label(f_home, text="¿Qué Necesitas?")
 title.grid(row=3, column=0)
 
-f_item = Frame(f_home, width=300, height=300, bg="#6a93e6")
-f_item.grid(row=5, column=1)
+f_item1 = Frame(f_home, width=300, height=300, bg="#6a93e6")
+f_item1.grid(row=5, column=1)
+f_item2 = Frame(f_home, width=300, height=300, bg="#d48df0")
+f_item2.grid(row=6, column=1)
 
 window.mainloop()
